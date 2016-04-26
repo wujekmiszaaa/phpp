@@ -1,0 +1,167 @@
+/*** og�lne definicje ***/
+
+body {
+	font-family: verdana;
+	font-size: 14px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table tr:hover {
+	background-color: #DFDFDF;
+}
+
+table tr.szukaj {
+	background-color: #DFDFDF;
+}
+
+table th {
+	background-color: #8F8F8F;
+	padding: 4px;
+	color: #FFF;
+	text-align: left;
+}
+
+table td {
+	padding: 4px;
+}
+
+table td:first-child {
+	background-color: #DFDFDF;
+}
+
+table.full {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+	border-bottom: 1px dotted #333;
+}
+
+a:hover {
+	border-bottom: 1px solid #333;
+}
+
+input[type=text],
+input[type=submit],
+textarea,
+select
+{
+	width: 60%;
+	border: 1px solid #333;
+}
+
+/*** /og�lne definicje ***/
+
+
+/*** szkielet strony ***/
+
+#kontener
+{
+	margin: 0 auto;
+	width: 900px;
+	background:#fff;
+}
+
+#naglowek
+{
+	background:#ccc;
+	padding: 20px;
+}
+
+#naglowek h1 { 
+	margin: 0; 
+	font-size: 1.8em;
+}
+
+#menu
+{
+	float: left;
+	width: 100%;
+	background:#333;
+	margin: 0;
+	padding: 0;
+}
+
+#menu li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#menu li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color:#fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#menu li a:hover { 
+	background:#383; 
+}
+
+#srodek
+{
+	clear: left;
+	padding: 10px 0;
+}
+
+#srodek h2
+{
+	color:#000;
+	font-size: 1.5em;
+	margin: 0 0 15px 0;
+}
+
+#stopka
+{
+	background:#ccc;
+	text-align: right;
+	padding: 10px;
+	height: 1%;
+}
+
+/*** /szkielet strony ***/
+
+/*** szczegoly oferty ***/
+
+#szczegoly p {
+    overflow: hidden;
+}
+#zdjecia {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#zdjecia li {
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 0;
+    margin-right: 15px;
+}
+
+#zdjecia li a {
+    border: 0;
+}
+
+#szczegoly a.powrot {
+    display: block;
+    float: left;
+}
+
+#szczegoly a.zapytanie {
+    display: block;
+    float: right;
+}
+
+/*** /szczegoly oferty ***/
